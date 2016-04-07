@@ -5,5 +5,5 @@ import ReactDOM from 'react-dom';
 import Component from './src/component';
 
 ReactDOM.render(
-  <Component name="World"></Component>,
+  React.createElement(Component, {name: 'World'}),
   document.getElementById('main'));
