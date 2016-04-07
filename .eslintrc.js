@@ -1,6 +1,11 @@
 module.exports = {
   parser: "babel-eslint",
 
+  env: {
+    browser: true,
+    jest: true
+  },
+
   plugins: [
     'react'
   ],
@@ -13,6 +18,7 @@ module.exports = {
 
   rules: {
     semi: ['error', 'always'],
+    strict: ['error', 'global'],
     'max-len': ['error', {code: 80, tabWidth: 2}],
     indent: ['error', 2],
     'key-spacing': ['error', {beforeColon: false, afterColon: true}],

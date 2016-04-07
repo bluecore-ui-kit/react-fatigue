@@ -1,0 +1,12 @@
+{
+  "testFileExtensions": [
+    "js"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "jsx"
+  ],
+  "unmockedModulePathPatterns": [
+    "./node_modules/"
+  ]
+}
