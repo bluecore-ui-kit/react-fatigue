@@ -16,7 +16,7 @@ help:
 
 build:
 	@echo "  $(P) build"
-	@$(BIN_DIR)/webpack $(BUILD_FLAGS)
+	@NODE_ENV=production $(BIN_DIR)/webpack $(BUILD_FLAGS)
 
 start:
 	@$(MAKE) watch
