@@ -25,7 +25,6 @@ module.exports = {
     'max-depth': ['error', 4],
     'max-nested-callbacks': ['error', 4],
     'max-params': ['error', 4],
-    'max-statements': ['error', 10],
     'complexity': ['error', {max: 12}],
     'jsx-quotes': ['error', 'prefer-double']
   }
