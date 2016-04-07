@@ -20,3 +20,4 @@ include node_modules/react-fatigue/Makefile
 You'll now have a number of targets available, see `make help` for details. You may customize the default behaviour
 by overriding the Makefile variables, view ./Makefile to see the defaults.
 
+Also package contains `.eslintrc`, `.jestrc`, and webpack configuration files.
