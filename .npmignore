@@ -1,4 +1,5 @@
 .babelrc
 build/
+src/
 index.html
 index.js
