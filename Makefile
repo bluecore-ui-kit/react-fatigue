@@ -10,7 +10,7 @@ help:
 	@echo
 	@echo "\033[34mbuild\033[0m - build bundles"
 	@echo "\033[34mwatch\033[0m - start development server"
-	@echo "\033[34m \033[0m" -
+	@echo "\033[34mlint\033[0m - run eslint over js and jsx files"
 	@echo "\033[34m \033[0m" -
 	@echo
 
@@ -25,4 +25,8 @@ watch:
 	@echo "  $(P) watch $(WATCH_FLAGS)"
 	@$(BIN_DIR)/webpack-dev-server $(WATCH_FLAGS)
 
-.PHONY: help start build watch serve
+lint:
+	@echo "  $(P) lint"
+	@$(BIN_DIR)/eslint --ignore-path .gitignore src/**
+
+.PHONY: help start build watch
