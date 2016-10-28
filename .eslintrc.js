@@ -2,6 +2,7 @@ module.exports = {
   parser: "babel-eslint",
 
   env: {
+    node: true,
     browser: true,
     jest: true
   },
@@ -20,7 +21,7 @@ module.exports = {
     semi: ['error', 'always'],
     strict: ['error', 'global'],
     'max-len': ['error', {code: 80, tabWidth: 2}],
-    indent: ['error', 2],
+    indent: ["error", 2, {"SwitchCase": 1}],
     'key-spacing': ['error', {beforeColon: false, afterColon: true}],
     'max-depth': ['error', 4],
     'max-nested-callbacks': ['error', 4],
