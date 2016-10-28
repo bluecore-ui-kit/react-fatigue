@@ -1,5 +1,4 @@
 module.exports = {
-  parser: "esprima",
   parserOptions: {
     ecmaVersion: 8
   },
