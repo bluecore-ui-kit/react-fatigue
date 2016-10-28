@@ -1,5 +1,8 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: "esprima",
+  parserOptions: {
+    ecmaVersion: 8
+  },
 
   env: {
     node: true,
